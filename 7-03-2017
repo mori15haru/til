@@ -1,0 +1,5 @@
+#Git
+To replace my local branch with a remote branch: `git reset --hard REMOTE_BRANCH`
+
+#Rails
+To get record created today: `MODEL.where(created_at: Time.zone.now.beginning_of_day..Time.zone.now.end_of_day)`
